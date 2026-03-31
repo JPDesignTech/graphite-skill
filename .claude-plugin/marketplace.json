@@ -1,0 +1,18 @@
+{
+  "name": "graphite-skill",
+  "owner": {
+    "name": "Jean Perez"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for Graphite stacked PRs — debug stack issues, aggregate PR comments, resolve restack conflicts, and manage stack workflows",
+    "homepage": "https://github.com/JPDesignTech/graphite-skill",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "graphite",
+      "source": "./plugins/graphite",
+      "description": "Skill and hooks for Graphite CLI stacked PRs: debug stack CI/review issues, aggregate PR comments, resolve restack conflicts, and manage stack workflows"
+    }
+  ]
+}
