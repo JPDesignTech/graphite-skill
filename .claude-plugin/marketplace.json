@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "graphite",
+      "name": "graphite-skill",
       "source": "./plugins/graphite",
       "description": "Skill and hooks for Graphite CLI stacked PRs: debug stack CI/review issues, aggregate PR comments, resolve restack conflicts, and manage stack workflows"
     }
