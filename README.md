@@ -105,18 +105,22 @@ Recommended fix order:
 ```
 graphite-skill/
   .claude-plugin/
-    plugin.json              # Plugin metadata
-  .mcp.json                  # Graphite MCP server config
-  hooks/
-    hooks.json               # SessionStart hook registration
-    scripts/
-      graphite-context.sh    # Injects stack context at session start
-  skills/
+    marketplace.json           # Marketplace metadata (required for claude plugin add)
+  plugins/
     graphite/
-      SKILL.md               # Main skill (4 workflows, triggers)
-      references/
-        cheatsheet.md        # gt command quick reference
-        conflict-resolution.md # Conflict resolution patterns
+      .claude-plugin/
+        plugin.json            # Plugin metadata
+      .mcp.json                # Graphite MCP server config
+      hooks/
+        hooks.json             # SessionStart hook registration
+        scripts/
+          graphite-context.sh  # Injects stack context at session start
+      skills/
+        graphite/
+          SKILL.md             # Main skill (4 workflows, triggers)
+          references/
+            cheatsheet.md      # gt command quick reference
+            conflict-resolution.md # Conflict resolution patterns
 ```
 
 ## Graphite MCP Integration
